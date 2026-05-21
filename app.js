@@ -1,0 +1,1 @@
+console.log("Portal operativo cargado correctamente.");
