@@ -78,8 +78,6 @@ input {
 .access-panel,
 .hero-panel,
 .section-card,
-.quick-card,
-.metric-card,
 .downloads-layout,
 .download-card,
 .megabus-card,
@@ -101,7 +99,6 @@ input {
 .access-panel__eyebrow,
 .eyebrow,
 .section-kicker,
-.quick-card__tag,
 .download-card__meta,
 .chip {
   text-transform: uppercase;
@@ -126,7 +123,6 @@ input {
 .access-panel p,
 .hero-panel p,
 .section-card p,
-.quick-card p,
 .download-card p,
 .empty-state p,
 .helper-text,
@@ -192,7 +188,6 @@ input {
 .btn:hover,
 .chip:hover,
 .download-link:hover,
-.quick-card:hover,
 .tool-card:hover,
 .download-card:hover,
 .back-link:hover {
@@ -240,9 +235,7 @@ input {
 }
 
 .hero-actions,
-.hero-metrics,
 .link-stack,
-.quick-grid,
 .section-grid,
 .downloads-grid,
 .download-card__footer,
@@ -261,7 +254,7 @@ input {
 .hero-brand {
   display: grid;
   grid-template-columns: auto 1fr;
-  gap: 18px;
+  gap: 20px;
   align-items: center;
 }
 
@@ -270,11 +263,11 @@ input {
 }
 
 .hero-logo-shell {
-  width: clamp(72px, 9vw, 98px);
+  width: clamp(86px, 11vw, 118px);
   aspect-ratio: 1;
   display: grid;
   place-items: center;
-  border-radius: 22px;
+  border-radius: 24px;
   padding: 12px;
   border: 1px solid rgba(77, 208, 225, 0.18);
   background:
@@ -310,6 +303,11 @@ input {
   grid-template-columns: repeat(auto-fit, minmax(180px, max-content));
 }
 
+.hero-status {
+  align-self: start;
+  justify-self: end;
+}
+
 .status-pill {
   display: inline-flex;
   align-items: center;
@@ -330,15 +328,11 @@ input {
   box-shadow: 0 0 16px rgba(74, 222, 128, 0.7);
 }
 
-.hero-metrics,
-.quick-grid,
 .section-grid,
 .downloads-grid {
   grid-template-columns: 1fr;
 }
 
-.metric-card,
-.quick-card,
 .section-card,
 .download-card,
 .megabus-card,
@@ -347,18 +341,9 @@ input {
   border-radius: var(--radius-md);
 }
 
-.metric-card,
 .download-card,
 .megabus-card {
   padding: 18px;
-}
-
-.metric-card strong {
-  font-size: 1.4rem;
-}
-
-.metric-card--accent {
-  background: linear-gradient(135deg, rgba(77, 208, 225, 0.14), rgba(14, 165, 233, 0.1));
 }
 
 .metric-label,
@@ -366,19 +351,12 @@ input {
   color: var(--muted);
 }
 
-.quick-card {
-  text-decoration: none;
-  padding: 20px;
-}
-
-.quick-card strong,
 .tool-card strong,
 .download-card h3,
 .megabus-card h3 {
   font-size: 1.05rem;
 }
 
-.quick-card strong,
 .tool-card strong,
 .download-card h3,
 .section-card h2,
@@ -390,6 +368,57 @@ input {
 
 .section-card {
   padding: 22px;
+  position: relative;
+  overflow: hidden;
+}
+
+.section-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 4px;
+  border-radius: 999px;
+  background: rgba(148, 163, 184, 0.35);
+}
+
+.section-card--reports::before {
+  background: linear-gradient(180deg, #38bdf8, #22d3ee);
+}
+
+.section-card--dashboards::before {
+  background: linear-gradient(180deg, #8b5cf6, #a855f7);
+}
+
+.section-card--tools::before {
+  background: linear-gradient(180deg, #f59e0b, #fbbf24);
+}
+
+.section-card--downloads::before {
+  background: linear-gradient(180deg, #22c55e, #4ade80);
+}
+
+.section-card--docs::before {
+  background: linear-gradient(180deg, #60a5fa, #38bdf8);
+}
+
+.section-card--reports .section-kicker {
+  color: #67e8f9;
+}
+
+.section-card--dashboards .section-kicker {
+  color: #c4b5fd;
+}
+
+.section-card--tools .section-kicker {
+  color: #fcd34d;
+}
+
+.section-card--downloads .section-kicker {
+  color: #86efac;
+}
+
+.section-card--docs .section-kicker {
+  color: #93c5fd;
 }
 
 .section-card__header h2,
@@ -610,6 +639,23 @@ input {
   text-align: center;
 }
 
+.portal-footer {
+  margin-top: 32px;
+  padding: 20px 4px 0;
+  border-top: 1px solid rgba(148, 163, 184, 0.14);
+}
+
+.portal-footer p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+.portal-footer span {
+  color: #7dd3fc;
+}
+
 .toast-region {
   position: fixed;
   right: 16px;
@@ -646,17 +692,12 @@ input {
   .download-card__footer {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-
-  .hero-metrics,
-  .quick-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
 }
 
 @media (min-width: 920px) {
   .hero-panel {
-    grid-template-columns: minmax(0, 1.3fr) minmax(280px, 0.7fr);
-    align-items: stretch;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: start;
   }
 
   .section-grid,
@@ -680,8 +721,6 @@ input {
 
   .section-card,
   .downloads-toolbar,
-  .metric-card,
-  .quick-card,
   .download-card,
   .megabus-card {
     padding: 16px;
@@ -693,7 +732,11 @@ input {
   }
 
   .hero-logo-shell {
-    width: 72px;
+    width: 84px;
+  }
+
+  .hero-status {
+    justify-self: start;
   }
 
   .megabus-card__brand {
