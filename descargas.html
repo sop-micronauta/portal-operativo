@@ -37,13 +37,23 @@
       </header>
 
       <section class="megabus-card">
-        <div>
-          <div class="download-card__meta">Megabus</div>
-          <h3>Buscar instalador Megabus</h3>
+        <div class="megabus-card__intro">
+          <div class="megabus-card__brand">
+            <img
+              class="megabus-logo"
+              src="assets/icons/megabus.png"
+              alt="Megabus"
+            />
+            <div>
+              <div class="download-card__meta">Megabus</div>
+              <h3>Buscar instalador Megabus</h3>
+            </div>
+          </div>
           <p>
-            Búsqueda preparada para cliente o empresa. Puede conectarse más adelante a una base CSV pública.
+            Buscador operativo conectado a una base local para localizar instaladores por cliente o empresa.
           </p>
         </div>
+
         <label class="field">
           <span>Cliente o empresa</span>
           <input
@@ -53,6 +63,8 @@
             autocomplete="off"
           />
         </label>
+
+        <div class="inline-message" id="megabus-status" aria-live="polite"></div>
         <div class="megabus-results" id="megabus-results" aria-live="polite"></div>
       </section>
 

@@ -82,7 +82,8 @@ const downloads = [
   }
 ];
 
-const megabusClients = [];
+let megabusClients = [];
+let megabusLoaded = false;
 
 document.addEventListener("DOMContentLoaded", () => {
   const page = document.body.dataset.page;
@@ -149,7 +150,7 @@ function initHomePage() {
   });
 }
 
-function initDownloadsPage() {
+async function initDownloadsPage() {
   const loginGate = document.getElementById("downloads-login-gate");
   const downloadsShell = document.getElementById("downloads-shell");
   const searchInput = document.getElementById("downloads-search");
@@ -159,6 +160,7 @@ function initDownloadsPage() {
   const emptyState = document.getElementById("downloads-empty");
   const megabusSearch = document.getElementById("megabus-search");
   const megabusResults = document.getElementById("megabus-results");
+  const megabusStatus = document.getElementById("megabus-status");
 
   if (
     !loginGate ||
@@ -169,7 +171,8 @@ function initDownloadsPage() {
     !downloadsGrid ||
     !emptyState ||
     !megabusSearch ||
-    !megabusResults
+    !megabusResults ||
+    !megabusStatus
   ) {
     return;
   }
@@ -219,7 +222,7 @@ function initDownloadsPage() {
   });
 
   megabusSearch.addEventListener("input", () => {
-    renderMegabusResults(megabusSearch.value.trim().toLowerCase(), megabusResults);
+    renderMegabusResults(megabusSearch.value.trim(), megabusResults, megabusStatus);
   });
 
   downloadsGrid.addEventListener("click", (event) => {
@@ -231,21 +234,29 @@ function initDownloadsPage() {
     showToast(`Abriendo descarga: ${action.dataset.downloadName}`, "success");
   });
 
-  renderMegabusResults("", megabusResults);
+  megabusResults.addEventListener("click", (event) => {
+    const action = event.target.closest("[data-megabus-company]");
+    if (!action) {
+      return;
+    }
+
+    showToast(`Abriendo instalador de ${action.dataset.megabusCompany}`, "success");
+  });
+
+  await loadMegabusClients();
+  renderMegabusResults("", megabusResults, megabusStatus);
   renderDownloadsGrid();
 
   function renderDownloadsGrid() {
     const filtered = downloads.filter((item) => {
       const haystack = `${item.category} ${item.name} ${item.description} ${item.type}`.toLowerCase();
       const matchesTerm = state.term ? haystack.includes(state.term) : true;
-      const matchesCategory =
-        state.category === "Todas" ? true : item.category === state.category;
+      const matchesCategory = state.category === "Todas" ? true : item.category === state.category;
 
       return matchesTerm && matchesCategory;
     });
 
-    const includeMegabusCard =
-      state.category === "Todas" || state.category === "Megabus";
+    const includeMegabusCard = state.category === "Todas" || state.category === "Megabus";
     const totalResults = filtered.length + (includeMegabusCard ? 1 : 0);
 
     resultsCount.textContent =
@@ -287,39 +298,150 @@ function initDownloadsPage() {
   }
 }
 
-function renderMegabusResults(term, container) {
-  if (!megabusClients.length) {
+async function loadMegabusClients() {
+  try {
+    const response = await fetch("assets/data/megabus.json", { cache: "no-store" });
+    if (!response.ok) {
+      throw new Error("No se pudo cargar megabus.json");
+    }
+
+    megabusClients = await response.json();
+    megabusLoaded = true;
+  } catch (error) {
+    console.error(error);
+    megabusClients = [];
+    megabusLoaded = false;
+    showToast("No se pudo cargar la base Megabus.", "error");
+  }
+}
+
+function renderMegabusResults(term, container, statusElement) {
+  const normalizedTerm = term.trim().toLowerCase();
+
+  if (!megabusLoaded) {
+    statusElement.textContent = "";
+    statusElement.dataset.tone = "error";
     container.innerHTML = `
-      <div class="megabus-item">
-        La búsqueda de instaladores Megabus está preparada para integrarse con la base CSV.
+      <div class="megabus-item megabus-item--warning">
+        <strong>Base no disponible</strong>
+        <p>No se pudo cargar la base local de Megabus.</p>
       </div>
     `;
     return;
   }
 
-  const results = megabusClients.filter((client) =>
-    `${client.client} ${client.description}`.toLowerCase().includes(term)
+  if (!normalizedTerm) {
+    statusElement.textContent = "";
+    statusElement.dataset.tone = "";
+    container.innerHTML = `
+      <div class="megabus-item">
+        <strong>Búsqueda Megabus</strong>
+        <p>Buscá un cliente o empresa para ver instaladores disponibles.</p>
+      </div>
+    `;
+    return;
+  }
+
+  if (normalizedTerm.length < 2) {
+    statusElement.textContent = "";
+    statusElement.dataset.tone = "";
+    container.innerHTML = `
+      <div class="megabus-item">
+        <strong>Búsqueda Megabus</strong>
+        <p>Ingresá al menos 2 caracteres para buscar.</p>
+      </div>
+    `;
+    return;
+  }
+
+  const matches = megabusClients.filter((client) =>
+    String(client.empresa || "").toLowerCase().includes(normalizedTerm)
   );
 
-  if (!results.length) {
+  if (!matches.length) {
+    statusElement.textContent = "0 resultados para la búsqueda actual.";
+    statusElement.dataset.tone = "warning";
     container.innerHTML = `
-      <div class="megabus-item">
-        No hay coincidencias para la búsqueda actual.
+      <div class="megabus-item megabus-item--warning">
+        <strong>Sin coincidencias</strong>
+        <p>No se encontraron instaladores para esa búsqueda.</p>
       </div>
     `;
     return;
   }
 
-  container.innerHTML = results
-    .map(
-      (client) => `
+  const visibleMatches = matches.slice(0, 12);
+  const extraMatches = matches.length - visibleMatches.length;
+
+  statusElement.textContent =
+    visibleMatches.length === 1
+      ? "1 instalador encontrado."
+      : `${visibleMatches.length} instaladores encontrados.`;
+  statusElement.dataset.tone = "success";
+
+  container.innerHTML = visibleMatches.map((client) => renderMegabusCard(client)).join("");
+
+  if (extraMatches > 0) {
+    container.insertAdjacentHTML(
+      "beforeend",
+      `
         <div class="megabus-item">
-          <strong>${escapeHtml(client.client)}</strong>
-          <p>${escapeHtml(client.description || "Instalador disponible para este cliente.")}</p>
+          <strong>Más coincidencias disponibles</strong>
+          <p>Hay más coincidencias. Especificá mejor la búsqueda.</p>
         </div>
       `
-    )
-    .join("");
+    );
+  }
+}
+
+function renderMegabusCard(client) {
+  const empresa = String(client.empresa || "Empresa sin nombre").trim();
+  const instalador = String(client.instalador || "").trim();
+  const claveInstalador = String(client.claveInstalador || "").trim();
+  const hasValidInstaller = instalador.toLowerCase().endsWith(".exe");
+  const downloadUrl = hasValidInstaller
+    ? `https://www.globalvisum.com/descargas/${encodeURIComponent(instalador)}`
+    : "";
+
+  return `
+    <article class="megabus-item${hasValidInstaller ? "" : " megabus-item--warning"}">
+      <div class="megabus-item__header">
+        <span class="megabus-badge">Megabus</span>
+        <strong>${escapeHtml(empresa)}</strong>
+      </div>
+      <div class="megabus-item__body">
+        <p><span>Empresa</span>${escapeHtml(empresa)}</p>
+        <p><span>Instalador</span>${escapeHtml(instalador || "No informado")}</p>
+        <p><span>Clave del instalador</span><code>${escapeHtml(formatInstallerKey(claveInstalador))}</code></p>
+        <p><span>URL final</span>${escapeHtml(downloadUrl || "Instalador no disponible o requiere revisión")}</p>
+      </div>
+      ${
+        hasValidInstaller
+          ? `
+            <div class="megabus-item__footer">
+              <a
+                class="download-link"
+                href="${downloadUrl}"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-megabus-company="${escapeHtml(empresa)}"
+              >
+                Descargar instalador
+              </a>
+            </div>
+          `
+          : `
+            <div class="megabus-item__footer">
+              <span class="megabus-warning-text">Instalador no disponible o requiere revisión</span>
+            </div>
+          `
+      }
+    </article>
+  `;
+}
+
+function formatInstallerKey(value) {
+  return value || "No informada";
 }
 
 function isSessionActive() {
