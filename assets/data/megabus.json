@@ -1,0 +1,807 @@
+[
+  {
+    "empresa": "13 de Noviembre",
+    "instalador": "13denoviembre.exe",
+    "claveInstalador": "13DeNoviembre"
+  },
+  {
+    "empresa": "ACHIRAS",
+    "instalador": "achiras.exe",
+    "claveInstalador": "AChiras"
+  },
+  {
+    "empresa": "AGUILA",
+    "instalador": "aguila.exe",
+    "claveInstalador": "AguilaViajes"
+  },
+  {
+    "empresa": "AGUILA CAPITAL",
+    "instalador": "aguilacapital.exe",
+    "claveInstalador": "AguilaCapital"
+  },
+  {
+    "empresa": "ALEJANDRO",
+    "instalador": "alejandrozeta.exe",
+    "claveInstalador": "ALejandro"
+  },
+  {
+    "empresa": "ALMA GROUP",
+    "instalador": "almagroup.exe",
+    "claveInstalador": "almagroup2025"
+  },
+  {
+    "empresa": "Amancay",
+    "instalador": "amancay.exe",
+    "claveInstalador": "AMancay"
+  },
+  {
+    "empresa": "ANDESMAR G400",
+    "instalador": "andesmarg400.exe",
+    "claveInstalador": "AndesmarG400"
+  },
+  {
+    "empresa": "Aponte",
+    "instalador": "aponte.exe",
+    "claveInstalador": "APonte"
+  },
+  {
+    "empresa": "ARISTOBULO DEL VALLE",
+    "instalador": "aristobulo.exe",
+    "claveInstalador": "ARistobulo"
+  },
+  {
+    "empresa": "AUTOBUSES SANTA FE",
+    "instalador": "autosantafe.exe",
+    "claveInstalador": "SantaFe"
+  },
+  {
+    "empresa": "Autotransporte 21",
+    "instalador": "a21.exe",
+    "claveInstalador": "AUtotransporte21"
+  },
+  {
+    "empresa": "Autotransporte Ceres",
+    "instalador": "autoceres.exe",
+    "claveInstalador": "AutoCeres"
+  },
+  {
+    "empresa": "BANCOR",
+    "instalador": "bancor.exe",
+    "claveInstalador": "BancorMic"
+  },
+  {
+    "empresa": "BAMBI",
+    "instalador": "bambi.exe",
+    "claveInstalador": "BAmbi2025"
+  },
+  {
+    "empresa": "Blanca Paloma",
+    "instalador": "blancapaloma.exe",
+    "claveInstalador": "BlancaPaloma"
+  },
+  {
+    "empresa": "BEG URBANO",
+    "instalador": "begurbano.exe",
+    "claveInstalador": "BegUrbano2025"
+  },
+  {
+    "empresa": "BUTTINI",
+    "instalador": "buttini.exe",
+    "claveInstalador": "BUttini"
+  },
+  {
+    "empresa": "CAMPANA DOS",
+    "instalador": "campanados.exe",
+    "claveInstalador": "CampanaDos"
+  },
+  {
+    "empresa": "CANELLO",
+    "instalador": "canello.exe",
+    "claveInstalador": "CAnello"
+  },
+  {
+    "empresa": "CAPITAL DEL MONTE",
+    "instalador": "capitaldelmonte.exe",
+    "claveInstalador": "CapitalDelMonte"
+  },
+  {
+    "empresa": "CAR BUS",
+    "instalador": "carbus.exe",
+    "claveInstalador": "CarBus"
+  },
+  {
+    "empresa": "CAR COR",
+    "instalador": "carcor.exe",
+    "claveInstalador": "CarCor"
+  },
+  {
+    "empresa": "CASTELLI",
+    "instalador": "castelli.exe",
+    "claveInstalador": "CAstelli"
+  },
+  {
+    "empresa": "CATA",
+    "instalador": "cata.exe",
+    "claveInstalador": "CAta"
+  },
+  {
+    "empresa": "CEFERINO",
+    "instalador": "ceferino.exe",
+    "claveInstalador": "CEferino"
+  },
+  {
+    "empresa": "COATA",
+    "instalador": "coata.exe",
+    "claveInstalador": "CordobaCoata"
+  },
+  {
+    "empresa": "CODTA",
+    "instalador": "codta.exe",
+    "claveInstalador": "COdta"
+  },
+  {
+    "empresa": "COLONIA",
+    "instalador": "colonia.exe",
+    "claveInstalador": "COlonia"
+  },
+  {
+    "empresa": "COLONIA UNIFICADA",
+    "instalador": "coloniaunificada.exe",
+    "claveInstalador": "ColoniaUnificada"
+  },
+  {
+    "empresa": "CONIFERAL",
+    "instalador": "coniferal.exe",
+    "claveInstalador": "COniferal"
+  },
+  {
+    "empresa": "CONO SUR",
+    "instalador": "conosur.exe",
+    "claveInstalador": "ConoSur"
+  },
+  {
+    "empresa": "Cordoba Juega",
+    "instalador": "cbajuega.exe",
+    "claveInstalador": "Cbajuega2024"
+  },
+  {
+    "empresa": "CRESPO",
+    "instalador": "crespo.exe",
+    "claveInstalador": "CRespo"
+  },
+  {
+    "empresa": "CRUCERO DEL NORTE",
+    "instalador": "crucero.exe",
+    "claveInstalador": "CRucero"
+  },
+  {
+    "empresa": "CUNA DE LA BANDERA",
+    "instalador": "cunadelabandera.exe",
+    "claveInstalador": "CunaDeLaBandera"
+  },
+  {
+    "empresa": "DEAN FUNES",
+    "instalador": "deanfunes.exe",
+    "claveInstalador": "DeanFunes"
+  },
+  {
+    "empresa": "DICETOURS",
+    "instalador": "dicetours.exe",
+    "claveInstalador": "DiceTours"
+  },
+  {
+    "empresa": "DILKIN",
+    "instalador": "dilkin.exe",
+    "claveInstalador": "DIlkin"
+  },
+  {
+    "empresa": "DUMASCAT",
+    "instalador": "dumascat.exe",
+    "claveInstalador": "DumasCat"
+  },
+  {
+    "empresa": "ECOM",
+    "instalador": "ecomchaco.exe",
+    "claveInstalador": "EcomChaco"
+  },
+  {
+    "empresa": "EL INDIO",
+    "instalador": "elindio.exe",
+    "claveInstalador": "ElIndio"
+  },
+  {
+    "empresa": "EL MILAGRO",
+    "instalador": "elmilagro.exe",
+    "claveInstalador": "ElMilagro"
+  },
+  {
+    "empresa": "EL PETROLEO",
+    "instalador": "elpetroleo.exe",
+    "claveInstalador": "ElPetroleo"
+  },
+  {
+    "empresa": "EL PORVENIR",
+    "instalador": "elporvenir.exe",
+    "claveInstalador": "sanjorge"
+  },
+  {
+    "empresa": "EL PUMA",
+    "instalador": "elpuma.exe",
+    "claveInstalador": "ElPuma"
+  },
+  {
+    "empresa": "EL TURISTA",
+    "instalador": "elturista.exe",
+    "claveInstalador": "ElTurista"
+  },
+  {
+    "empresa": "Elizabet Hennig",
+    "instalador": "elizabethennig.exe",
+    "claveInstalador": "EHenning2026"
+  },
+  {
+    "empresa": "ELPORVENIR",
+    "instalador": "elporvenir.exe",
+    "claveInstalador": "sanjorge"
+  },
+  {
+    "empresa": "EL QUEBRACHAL INTERURBANO",
+    "instalador": "elquebrachalinter.exe",
+    "claveInstalador": "ElQuebrachal2025"
+  },
+  {
+    "empresa": "EMPRENDIMIENTOS",
+    "instalador": "fonobus.exe",
+    "claveInstalador": "FOnobus"
+  },
+  {
+    "empresa": "ERSA",
+    "instalador": "ersa.exe",
+    "claveInstalador": "ERsa"
+  },
+  {
+    "empresa": "ERSA URBANO",
+    "instalador": "ersaurbano.exe",
+    "claveInstalador": "ErsaUrbano"
+  },
+  {
+    "empresa": "ETCE",
+    "instalador": "eldorado.exe",
+    "claveInstalador": "ElDorado"
+  },
+  {
+    "empresa": "EXPREBUS",
+    "instalador": "exprebus.exe",
+    "claveInstalador": "EXprebus"
+  },
+  {
+    "empresa": "EXPRESO DE LA SELVA",
+    "instalador": "expresodelaselva.exe",
+    "claveInstalador": "ExpresoDeLaSelva"
+  },
+  {
+    "empresa": "EXPRESO DEL NORTE",
+    "instalador": "expresodelnorte.exe",
+    "claveInstalador": "ExpresoDelNorte"
+  },
+  {
+    "empresa": "EXPRESO DEL PLATA",
+    "instalador": "expresodelplata.exe",
+    "claveInstalador": "ExpresoDelPlata"
+  },
+  {
+    "empresa": "FEDERICO",
+    "instalador": "federico.exe",
+    "claveInstalador": "FEderico"
+  },
+  {
+    "empresa": "GARAY",
+    "instalador": "garay.exe",
+    "claveInstalador": "GAray"
+  },
+  {
+    "empresa": "GAUCHITO GIL",
+    "instalador": "gauchitogil.exe",
+    "claveInstalador": "GauchitoGil2024"
+  },
+  {
+    "empresa": "PYSA - GAYA Aguila Dorada",
+    "instalador": "gaya.exe",
+    "claveInstalador": "GAya"
+  },
+  {
+    "empresa": "GOOD TRAVEL",
+    "instalador": "goodtravel.exe",
+    "claveInstalador": "GoodTravel"
+  },
+  {
+    "empresa": "GRUPO MR",
+    "instalador": "grupomrr.exe",
+    "claveInstalador": "GrupoMr2024"
+  },
+  {
+    "empresa": "HENNING",
+    "instalador": "henning.exe",
+    "claveInstalador": "HEnning"
+  },
+  {
+    "empresa": "INTERCORDOBA",
+    "instalador": "intercordoba.exe",
+    "claveInstalador": "INtercordoba"
+  },
+  {
+    "empresa": "ISELIN",
+    "instalador": "iselin.exe",
+    "claveInstalador": "ISelin"
+  },
+  {
+    "empresa": "ITATI",
+    "instalador": "itati.exe",
+    "claveInstalador": "ITati"
+  },
+  {
+    "empresa": "JACOBSEN",
+    "instalador": "jacobsensrl.exe",
+    "claveInstalador": "JAcobsen2024"
+  },
+  {
+    "empresa": "JAMES CRAIK",
+    "instalador": "jamescraik.exe",
+    "claveInstalador": "JamesCraik"
+  },
+  {
+    "empresa": "JESUS MARIA",
+    "instalador": "jesusmaria.exe",
+    "claveInstalador": "JesusMaria"
+  },
+  {
+    "empresa": "KENIA SAN VICENTE",
+    "instalador": "keniasv.exe",
+    "claveInstalador": "KEnia"
+  },
+  {
+    "empresa": "Kenia UNIFICADA",
+    "instalador": "keniaunificada.exe",
+    "claveInstalador": "KeniaUnificada"
+  },
+  {
+    "empresa": "KOKO",
+    "instalador": "koko.exe",
+    "claveInstalador": "KoKo"
+  },
+  {
+    "empresa": "LA CALERA",
+    "instalador": "lacalera.exe",
+    "claveInstalador": "LaCalera"
+  },
+  {
+    "empresa": "LA ESTRELLA",
+    "instalador": "laestrella.exe",
+    "claveInstalador": "LaEstrella"
+  },
+  {
+    "empresa": "LA LINDA",
+    "instalador": "lalinda.exe",
+    "claveInstalador": "LaLinda"
+  },
+  {
+    "empresa": "LA UNION",
+    "instalador": "launion.exe",
+    "claveInstalador": "LaUnion"
+  },
+  {
+    "empresa": "LAMBERTOUR",
+    "instalador": "lambertour.exe",
+    "claveInstalador": "LAmber1902"
+  },
+  {
+    "empresa": "LA VERDE",
+    "instalador": "laverde.exe",
+    "claveInstalador": "LaVerde"
+  },
+  {
+    "empresa": "LAIOLO",
+    "instalador": "laiolo.exe",
+    "claveInstalador": "LAiolo"
+  },
+  {
+    "empresa": "LA TERMAL",
+    "instalador": "latermal.exe",
+    "claveInstalador": "LaTermal2024"
+  },
+  {
+    "empresa": "LAS GRUTAS",
+    "instalador": "lasgrutas.exe",
+    "claveInstalador": "LasGrutas"
+  },
+  {
+    "empresa": "LEP",
+    "instalador": "lep.exe",
+    "claveInstalador": "LEp"
+  },
+  {
+    "empresa": "LIBERTADOR",
+    "instalador": "libertador.exe",
+    "claveInstalador": "LIbertador"
+  },
+  {
+    "empresa": "LUMASA",
+    "instalador": "lumasa.exe",
+    "claveInstalador": "LUmasa"
+  },
+  {
+    "empresa": "MALVINAS ARGENTINAS",
+    "instalador": "malvinas.exe",
+    "claveInstalador": "MAlvinas"
+  },
+  {
+    "empresa": "MAR CHIQUITA",
+    "instalador": "marchiquita.exe",
+    "claveInstalador": "MarChiquita"
+  },
+  {
+    "empresa": "MARCIANO TOUR",
+    "instalador": "marcianotour.exe",
+    "claveInstalador": "MarcianoTour"
+  },
+  {
+    "empresa": "MARIA TOURS",
+    "instalador": "mariatours.exe",
+    "claveInstalador": "MariaTours"
+  },
+  {
+    "empresa": "MARTINEZ",
+    "instalador": "martinez.exe",
+    "claveInstalador": "MArtinez"
+  },
+  {
+    "empresa": "MAXIA",
+    "instalador": "caleta.exe",
+    "claveInstalador": "CAleta"
+  },
+  {
+    "empresa": "MENDOZA CENTRO",
+    "instalador": "mendozacentro.exe",
+    "claveInstalador": "MendozaCentro"
+  },
+  {
+    "empresa": "MICRO",
+    "instalador": "micro.exe",
+    "claveInstalador": "MIcro"
+  },
+  {
+    "empresa": "MORTEROS",
+    "instalador": "morteros.exe",
+    "claveInstalador": "MOrteros"
+  },
+  {
+    "empresa": "MUNI BELL VILL",
+    "instalador": "munibellville.exe",
+    "claveInstalador": "BellVille"
+  },
+  {
+    "empresa": "MUNI GENERAL ROCA",
+    "instalador": "munigralroca.exe",
+    "claveInstalador": "GeneralRoca"
+  },
+  {
+    "empresa": "MUNI LAVALLE",
+    "instalador": "munilavalle.exe",
+    "claveInstalador": "MuniLavalle"
+  },
+  {
+    "empresa": "MUNI OBERA",
+    "instalador": "muniobera.exe",
+    "claveInstalador": "MuniObera"
+  },
+  {
+    "empresa": "MUNI ZAPALA",
+    "instalador": "munizapala.exe",
+    "claveInstalador": "MuniZapala"
+  },
+  {
+    "empresa": "MUNI LA GRANJA",
+    "instalador": "munilagranja.exe",
+    "claveInstalador": "LaGranja2024"
+  },
+  {
+    "empresa": "MUNI SAN FRANCISCO",
+    "instalador": "munisanfrancisco.exe",
+    "claveInstalador": "MuniSanFrancisco2024"
+  },
+  {
+    "empresa": "NAZARETH",
+    "instalador": "nazareth.exe",
+    "claveInstalador": "NAzareth"
+  },
+  {
+    "empresa": "NERBEN CORVEL",
+    "instalador": "nerben.exe",
+    "claveInstalador": "NErben2025"
+  },
+  {
+    "empresa": "NUEVA GENERACION",
+    "instalador": "nuevageneracion.exe",
+    "claveInstalador": "NGeneracion1210"
+  },
+  {
+    "empresa": "PALMARES",
+    "instalador": "palmares.exe",
+    "claveInstalador": "PAlmares"
+  },
+  {
+    "empresa": "PANAHOLMA",
+    "instalador": "panaholma.exe",
+    "claveInstalador": "PAnaholma"
+  },
+  {
+    "empresa": "PARANA MEDIO",
+    "instalador": "paranamedio.exe",
+    "claveInstalador": "ParanaMedio"
+  },
+  {
+    "empresa": "PEHUENCHE",
+    "instalador": "pehuenche.exe",
+    "claveInstalador": "PEhuenche"
+  },
+  {
+    "empresa": "PEHUENCHE ADMIN",
+    "instalador": "pehuencheadmin.exe",
+    "claveInstalador": "PEhuenche"
+  },
+  {
+    "empresa": "PEHUENCHE NEUQUEN",
+    "instalador": "pehuencheneuquen.exe",
+    "claveInstalador": "PEhuenche"
+  },
+  {
+    "empresa": "PRESTACIONES",
+    "instalador": "prestaciones.exe",
+    "claveInstalador": "PRestaciones"
+  },
+  {
+    "empresa": "PROX",
+    "instalador": "prox.exe",
+    "claveInstalador": "PRox"
+  },
+  {
+    "empresa": "POLO",
+    "instalador": "polo.exe",
+    "claveInstalador": "POlo2024"
+  },
+  {
+    "empresa": "RADATILLY",
+    "instalador": "radatilly.exe",
+    "claveInstalador": "RadaTilly"
+  },
+  {
+    "empresa": "RAFAELA MUNI",
+    "instalador": "rafaela.exe",
+    "claveInstalador": "RAfaela"
+  },
+  {
+    "empresa": "RAPIDO DEL SUD / MONTEMAR",
+    "instalador": "rapidodelsud.exe",
+    "claveInstalador": "RapidoDelSud"
+  },
+  {
+    "empresa": "RINCON",
+    "instalador": "rincon.exe",
+    "claveInstalador": "RIncon"
+  },
+  {
+    "empresa": "RIO BERMEJO",
+    "instalador": "riobermejo.exe",
+    "claveInstalador": "RioBermejo"
+  },
+  {
+    "empresa": "RIO BUS",
+    "instalador": "riobus.exe",
+    "claveInstalador": "RioBus"
+  },
+  {
+    "empresa": "RIO URUGUAY (SAN JAVIER)",
+    "instalador": "rusanjavier.exe",
+    "claveInstalador": "RuSanJavier"
+  },
+  {
+    "empresa": "RIO URUGUAY",
+    "instalador": "elpractico.exe",
+    "claveInstalador": "ElPractico"
+  },
+  {
+    "empresa": "RIOBER",
+    "instalador": "riober.exe",
+    "claveInstalador": "RioBer"
+  },
+  {
+    "empresa": "ROTA",
+    "instalador": "rota.exe",
+    "claveInstalador": "ROta"
+  },
+  {
+    "empresa": "SAN ANTONIO",
+    "instalador": "sanantonio.exe",
+    "claveInstalador": "SanAntonio"
+  },
+  {
+    "empresa": "SAN ANTONIO ORAN",
+    "instalador": "sanantoniooran.exe",
+    "claveInstalador": "SanAnOran2024"
+  },
+  {
+    "empresa": "SAN CRISTOBAL",
+    "instalador": "sancristobal.exe",
+    "claveInstalador": "SanCristobal"
+  },
+  {
+    "empresa": "SAN FELIPE",
+    "instalador": "sanfelipe.exe",
+    "claveInstalador": "SanFelipe"
+  },
+  {
+    "empresa": "SAN MARTIN DE LOS ANDES",
+    "instalador": "sanmartin.exe",
+    "claveInstalador": "SanMartin"
+  },
+  {
+    "empresa": "SAN ROQUE",
+    "instalador": "sanroque.exe",
+    "claveInstalador": "SanRoque"
+  },
+  {
+    "empresa": "SARMIENTO",
+    "instalador": "sarmiento.exe",
+    "claveInstalador": "SArmiento"
+  },
+  {
+    "empresa": "SAT",
+    "instalador": "satcriocuarto.exe",
+    "claveInstalador": "SaTcRc"
+  },
+  {
+    "empresa": "SIBUS CBA (Rissma)",
+    "instalador": "sibuscba.exe",
+    "claveInstalador": "SiBus2025"
+  },
+  {
+    "empresa": "SIBUS",
+    "instalador": "sibus.exe",
+    "claveInstalador": "SIbus"
+  },
+  {
+    "empresa": "SIERRAS GRUPO",
+    "instalador": "GrupoSierra.exe",
+    "claveInstalador": "GrupoSierra"
+  },
+  {
+    "empresa": "SP TRANSPORTE",
+    "instalador": "sptransporte.exe",
+    "claveInstalador": "Sp2025"
+  },
+  {
+    "empresa": "SILVIA",
+    "instalador": "silvia.exe",
+    "claveInstalador": "SIlvia2023"
+  },
+  {
+    "empresa": "SOL DEL NORTE",
+    "instalador": "soldelnorte.exe",
+    "claveInstalador": "SolDelNorte"
+  },
+  {
+    "empresa": "SOLBUS",
+    "instalador": "solbus.exe",
+    "claveInstalador": "SolBus"
+  },
+  {
+    "empresa": "SUR MENDOZA",
+    "instalador": "surmendoza.exe",
+    "claveInstalador": "SurMendoza"
+  },
+  {
+    "empresa": "TAL",
+    "instalador": "tal.exe",
+    "claveInstalador": "TAl"
+  },
+  {
+    "empresa": "TALA",
+    "instalador": "tala.exe",
+    "claveInstalador": "TAla"
+  },
+  {
+    "empresa": "TALKA",
+    "instalador": "talka.exe",
+    "claveInstalador": "TAlka"
+  },
+  {
+    "empresa": "TAMSE",
+    "instalador": "tamse.exe",
+    "claveInstalador": "TAmse"
+  },
+  {
+    "empresa": "TECNOBUS",
+    "instalador": "tecnobus.exe",
+    "claveInstalador": "TecnoBus2024"
+  },
+  {
+    "empresa": "TIN",
+    "instalador": "tin.exe",
+    "claveInstalador": "TIn2024"
+  },
+  {
+    "empresa": "TIN BOLETERIAS",
+    "instalador": "tinboleteria.exe",
+    "claveInstalador": "TinBoleteria"
+  },
+  {
+    "empresa": "TIN CLIENTE (Chipa)",
+    "instalador": "tinchipa.exe",
+    "claveInstalador": "TinChipa"
+  },
+  {
+    "empresa": "TRANSBUS",
+    "instalador": "transbus.exe",
+    "claveInstalador": "TransBus"
+  },
+  {
+    "empresa": "TRANSPORTE SAN LUIS",
+    "instalador": "tptsanluis.exe",
+    "claveInstalador": "SanLuis2024"
+  },
+  {
+    "empresa": "TRANSPORTE DE CORDOBA",
+    "instalador": "transportecba.exe",
+    "claveInstalador": "TransporteCba"
+  },
+  {
+    "empresa": "TRANSUR",
+    "instalador": "transur.exe",
+    "claveInstalador": "TranSur"
+  },
+  {
+    "empresa": "TUM",
+    "instalador": "montecarlo.exe",
+    "claveInstalador": "MOntecarlo"
+  },
+  {
+    "empresa": "TURISMO MARTIN",
+    "instalador": "turismomartin.exe",
+    "claveInstalador": "TurismoMartin"
+  },
+  {
+    "empresa": "TURITOUR SA",
+    "instalador": "turitoursa.exe",
+    "claveInstalador": "TuriTour"
+  },
+  {
+    "empresa": "TUS",
+    "instalador": "",
+    "claveInstalador": "Tus"
+  },
+  {
+    "empresa": "Urbano S.E.",
+    "instalador": "urbanose.exe",
+    "claveInstalador": "URbanose"
+  },
+  {
+    "empresa": "Viajar",
+    "instalador": "viajar.exe",
+    "claveInstalador": "VIajar"
+  },
+  {
+    "empresa": "VILLA UTE",
+    "instalador": "villaute.exe",
+    "claveInstalador": "VillaUte"
+  },
+  {
+    "empresa": "xxBUTTINI400",
+    "instalador": "paso a ser andesmar",
+    "claveInstalador": "BUttini400"
+  },
+  {
+    "empresa": "ZKENIA",
+    "instalador": "kenia.exe",
+    "claveInstalador": "KEnia"
+  }
+]
