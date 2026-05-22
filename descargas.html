@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Centro de Descargas | Micronauta Ops Center</title>
+  <meta
+    name="description"
+    content="Centro de descargas operativas para soporte, drivers y herramientas internas."
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="downloads">
+  <div class="noise-layer" aria-hidden="true"></div>
+
+  <section class="access-shell" id="downloads-login-gate">
+    <div class="access-panel">
+      <div class="access-panel__eyebrow">ACCESO REQUERIDO</div>
+      <h1>Centro de Descargas</h1>
+      <p>
+        Primero ingresá al portal principal para habilitar la sesión visual en este equipo.
+      </p>
+      <a class="btn btn-primary" href="index.html">Ir al portal principal</a>
+    </div>
+  </section>
+
+  <main class="downloads-shell is-hidden" id="downloads-shell">
+    <div class="downloads-layout">
+      <header class="downloads-header">
+        <div>
+          <a class="back-link" href="index.html">Volver al portal principal</a>
+          <h1>Centro de Descargas</h1>
+          <p>
+            Drivers, instaladores y utilidades operativas con búsqueda rápida y organización por categoría.
+          </p>
+        </div>
+      </header>
+
+      <section class="megabus-card">
+        <div>
+          <div class="download-card__meta">Megabus</div>
+          <h3>Buscar instalador Megabus</h3>
+          <p>
+            Búsqueda preparada para cliente o empresa. Puede conectarse más adelante a una base CSV pública.
+          </p>
+        </div>
+        <label class="field">
+          <span>Cliente o empresa</span>
+          <input
+            id="megabus-search"
+            type="search"
+            placeholder="Buscar por cliente o empresa"
+            autocomplete="off"
+          />
+        </label>
+        <div class="megabus-results" id="megabus-results" aria-live="polite"></div>
+      </section>
+
+      <section class="downloads-toolbar" aria-label="Filtros de descargas">
+        <div class="toolbar-top">
+          <label class="field">
+            <span>Buscador general</span>
+            <input
+              id="downloads-search"
+              type="search"
+              placeholder="Buscar por nombre, categoría o descripción"
+              autocomplete="off"
+            />
+          </label>
+          <div>
+            <span class="results-count" id="results-count">0 resultados visibles</span>
+            <p class="toolbar-note">
+              Los enlaces se abren en una nueva pestaña para mantener compatibilidad con GitHub Pages.
+            </p>
+          </div>
+        </div>
+        <div class="chips-row" id="category-chips" aria-label="Categorías"></div>
+      </section>
+
+      <section class="downloads-grid" id="downloads-grid" aria-live="polite"></section>
+      <div class="empty-state" id="downloads-empty" hidden>
+        <strong>Sin resultados</strong>
+        <p>Probá con otro término o cambiá la categoría seleccionada.</p>
+      </div>
+    </div>
+  </main>
+
+  <div class="toast-region" id="toast-region" aria-live="polite" aria-atomic="true"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

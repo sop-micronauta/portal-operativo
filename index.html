@@ -3,48 +3,195 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portal Operativo</title>
+  <title>Micronauta Ops Center</title>
+  <meta
+    name="description"
+    content="Portal operativo de soporte, monitoreo y herramientas internas."
+  />
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
+<body data-page="home">
+  <div class="noise-layer" aria-hidden="true"></div>
 
-  <main class="app">
-    <header class="hero">
-      <div>
-        <span class="badge">MICRONAUTA OPS</span>
-        <h1>Portal Operativo</h1>
-        <p>Accesos rápidos para soporte, monitoreo, reportes y herramientas internas.</p>
+  <div class="access-shell" id="access-shell">
+    <section class="access-panel">
+      <div class="access-panel__eyebrow">MICRONAUTA OPS CENTER</div>
+      <h1>Acceso operativo</h1>
+      <p>
+        Portal operativo de soporte, monitoreo y herramientas internas.
+      </p>
+      <form class="access-form" id="login-form">
+        <label class="field">
+          <span>Clave de ingreso</span>
+          <input
+            id="access-key-input"
+            name="access-key"
+            type="password"
+            placeholder="Ingresar clave temporal"
+            autocomplete="current-password"
+          />
+        </label>
+        <button class="btn btn-primary" type="submit">Ingresar al portal</button>
+        <p class="helper-text">
+          Barrera visual simple para GitHub Pages. No representa seguridad real.
+        </p>
+      </form>
+      <div class="inline-message" id="login-message" aria-live="polite"></div>
+    </section>
+  </div>
+
+  <main class="app-shell is-hidden" id="portal-shell">
+    <header class="hero-panel">
+      <div class="hero-copy">
+        <div class="hero-brand">
+          <div class="hero-logo-shell" aria-hidden="true">
+            <img
+              class="hero-logo"
+              src="assets/logo3.png"
+              alt="Micronauta Ops Center"
+            />
+          </div>
+          <div class="hero-brand-copy">
+            <span class="eyebrow">OPS CENTER</span>
+            <h1>Micronauta Ops Center</h1>
+            <p>
+              Portal operativo de soporte, monitoreo y herramientas internas.
+            </p>
+          </div>
+        </div>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="descargas.html">Ir a descargas</a>
+          <button class="btn btn-secondary" id="logout-button" type="button">
+            Cerrar sesión
+          </button>
+        </div>
       </div>
-      <div class="status-card">
-        <span class="dot"></span>
-        Sistemas operativos
-      </div>
+
+      <aside class="hero-status">
+        <div class="status-pill">
+          <span class="status-dot"></span>
+          Modo operativo activo
+        </div>
+        <div class="hero-metrics">
+          <article class="metric-card">
+            <span class="metric-label">Accesos rápidos</span>
+            <strong>9</strong>
+          </article>
+          <article class="metric-card">
+            <span class="metric-label">Secciones</span>
+            <strong>5</strong>
+          </article>
+          <article class="metric-card metric-card--accent">
+            <span class="metric-label">Descargas</span>
+            <strong>Centro</strong>
+          </article>
+        </div>
+      </aside>
     </header>
 
-    <section class="grid">
+    <section class="quick-grid" aria-label="Accesos rápidos">
+      <a class="quick-card" href="https://script.google.com/macros/s/AKfycbws_oGX5D0MiuVkbaLQ7ZC8IAeNoJwKAKvT8xzY3FnrYlnQHcZfpBRrQ3eBbC_uxwBm/exec">
+        <span class="quick-card__tag">Reporte</span>
+        <strong>Jira</strong>
+        <p>Seguimiento de tickets y control de operación.</p>
+      </a>
+      <a class="quick-card" href="https://script.google.com/a/macros/globalvisum.com/s/AKfycbywUg4t5bXWMK6uOOXOxIBtQrZCvA-IpH-AnwGT80VbcSQ9cmiyf2rbrciDgUS_AoGM/exec">
+        <span class="quick-card__tag">Dashboard</span>
+        <strong>Dashboard KPI</strong>
+        <p>Visualización de indicadores operativos y soporte.</p>
+      </a>
+      <a class="quick-card" href="descargas.html">
+        <span class="quick-card__tag">Descargas</span>
+        <strong>Centro de Descargas</strong>
+        <p>Drivers, lectores, herramientas remotas y utilidades.</p>
+      </a>
+    </section>
 
+    <section class="section-grid">
       <article class="section-card">
-        <h2>📊 Reportes</h2>
-        <a href="https://micronauta-arg.atlassian.net/jira/software/projects/TK/list?jql=project%20%3D%20TK%20" class="tool-card">Jira</a>
-        <a href="https://app.whaticket.com/tickets" class="tool-card">Whaticket</a>
+        <div class="section-card__header">
+          <span class="section-kicker">Reportes</span>
+          <h2>Seguimiento y análisis</h2>
+        </div>
+        <div class="link-stack">
+          <a class="tool-card" href="https://script.google.com/macros/s/AKfycbws_oGX5D0MiuVkbaLQ7ZC8IAeNoJwKAKvT8xzY3FnrYlnQHcZfpBRrQ3eBbC_uxwBm/exec">
+            <strong>Jira</strong>
+            <span>Reporte operativo de tickets y soporte.</span>
+          </a>
+          <a class="tool-card" href="https://script.google.com/macros/s/AKfycbyYRAIau6jraJgf_RX7WTeeGVwClv-FbHWcUKULHmYEgYhUHf6jH__2HD4QzOpCBNTxBA/exec">
+            <strong>Whaticket</strong>
+            <span>Control y seguimiento de conversaciones operativas.</span>
+          </a>
+        </div>
       </article>
 
       <article class="section-card">
-        <h2>📈 Dashboards</h2>
-        <a href="https://script.google.com/a/macros/globalvisum.com/s/AKfycbywUg4t5bXWMK6uOOXOxIBtQrZCvA-IpH-AnwGT80VbcSQ9cmiyf2rbrciDgUS_AoGM/exec" class="tool-card">Dashboard KPI</a>
-        <a href="#https://script.google.com/a/macros/globalvisum.com/s/AKfycbwoDHiUXzd_sup8oNeydExlVPy-MyrS9HeTTg9a9YxTnOZsYmm-Q6dFoZLWI43y9M9ELQ/exec" class="tool-card">Correos - Control</a>
+        <div class="section-card__header">
+          <span class="section-kicker">Dashboards</span>
+          <h2>Monitoreo en tiempo real</h2>
+        </div>
+        <div class="link-stack">
+          <a class="tool-card" href="https://script.google.com/a/macros/globalvisum.com/s/AKfycbywUg4t5bXWMK6uOOXOxIBtQrZCvA-IpH-AnwGT80VbcSQ9cmiyf2rbrciDgUS_AoGM/exec">
+            <strong>Dashboard KPI</strong>
+            <span>Indicadores clave para operación y performance.</span>
+          </a>
+          <a class="tool-card" href="https://script.google.com/a/macros/globalvisum.com/s/AKfycbwoDHiUXzd_sup8oNeydExlVPy-MyrS9HeTTg9a9YxTnOZsYmm-Q6dFoZLWI43y9M9ELQ/exec">
+            <strong>Correos - Control</strong>
+            <span>Seguimiento de correos y validaciones de soporte.</span>
+          </a>
+        </div>
       </article>
 
       <article class="section-card">
-        <h2>🛠️ Herramientas</h2>
-        <a href="https://planificador-de-recorridos-706136587162.us-west1.run.app/" class="tool-card">Planificador de rutas</a>
-        <a href="https://script.google.com/a/macros/globalvisum.com/s/AKfycbwfaLVjIM5feqmYc-pLEIg07hKgew7zvOuX0KUmbjC1DalpEjFb0r7m0P904a4I7k7n/exec" class="tool-card">Calendario de guardias</a>
-        <a href="https://script.google.com/a/macros/globalvisum.com/s/AKfycbzmVhE9wDRajC2fPiT-77-JUahrDOAZdPLM-zNCb_2LDUB2ECEO0_3FHiZwKB4PnUbK4Q/exec" class="tool-card">Generador QR</a>
-        <a href="descargas.html" class="tool-card">Descargas</a>
+        <div class="section-card__header">
+          <span class="section-kicker">Herramientas</span>
+          <h2>Utilidades de trabajo</h2>
+        </div>
+        <div class="link-stack">
+          <a class="tool-card" href="https://planificador-de-recorridos-706136587162.us-west1.run.app/">
+            <strong>Planificador de rutas</strong>
+            <span>Asistente para recorridos y planificación operativa.</span>
+          </a>
+          <a class="tool-card" href="https://script.google.com/a/macros/globalvisum.com/s/AKfycbwfaLVjIM5feqmYc-pLEIg07hKgew7zvOuX0KUmbjC1DalpEjFb0r7m0P904a4I7k7n/exec">
+            <strong>Calendario de guardias</strong>
+            <span>Turnos, guardias y disponibilidad del equipo.</span>
+          </a>
+          <a class="tool-card" href="https://script.google.com/a/macros/globalvisum.com/s/AKfycbzmVhE9wDRajC2fPiT-77-JUahrDOAZdPLM-zNCb_2LDUB2ECEO0_3FHiZwKB4PnUbK4Q/exec">
+            <strong>Generador QR</strong>
+            <span>Generación rápida de códigos QR operativos.</span>
+          </a>
+        </div>
       </article>
 
+      <article class="section-card">
+        <div class="section-card__header">
+          <span class="section-kicker">Descargas</span>
+          <h2>Instaladores y drivers</h2>
+        </div>
+        <div class="link-stack">
+          <a class="tool-card tool-card--accent" href="descargas.html">
+            <strong>Centro de Descargas</strong>
+            <span>Lectores, impresoras, herramientas remotas y más.</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="section-card">
+        <div class="section-card__header">
+          <span class="section-kicker">Documentación</span>
+          <h2>Historial y utilidades</h2>
+        </div>
+        <div class="link-stack">
+          <a class="tool-card" href="https://script.google.com/macros/s/AKfycbymAW2LC6Fr1RomnX8TA_Okp59vLj9SzcSiMuHa8Zt34JS2F5XW87d64RhuuFSudolemQ/exec">
+            <strong>Registro de versiones</strong>
+            <span>Control de cambios y consulta rápida de releases.</span>
+          </a>
+        </div>
+      </article>
     </section>
   </main>
+
+  <div class="toast-region" id="toast-region" aria-live="polite" aria-atomic="true"></div>
 
   <script src="app.js"></script>
 </body>
