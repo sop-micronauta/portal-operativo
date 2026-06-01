@@ -803,5 +803,10 @@
     "empresa": "ZKENIA",
     "instalador": "kenia.exe",
     "claveInstalador": "KEnia"
+  },
+    {
+    "empresa": "URKUPINA",
+    "instalador": "urkupina.exe",
+    "claveInstalador": "URkupina2026"
   }
 ]
