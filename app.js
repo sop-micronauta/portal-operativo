@@ -79,6 +79,13 @@ const downloads = [
     description: "Utilidad de credenciales web para soporte operativo.",
     url: "https://globalvisum.com/descargas/credencialweb.rar",
     type: "RAR"
+  },
+    {
+    category: "Otros",
+    name: "Calculadora Windows",
+    description: "Calculadora que si funciona a la par del megabus",
+    url: "https://globalvisum.com/descargas/soporte/calculadora.zip",
+    type: "ZIP"
   }
 ];
 
