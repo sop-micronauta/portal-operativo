@@ -808,5 +808,11 @@
     "empresa": "URKUPINA",
     "instalador": "urkupina.exe",
     "claveInstalador": "URkupina2026"
+  },
+    },
+    {
+    "empresa": "COMUNA SAN CLEMENTE",
+    "instalador": "sanclementecba.exe",
+    "claveInstalador": "CLemente2026"
   }
 ]
