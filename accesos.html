@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Centro de Accesos | Micronauta Ops Center</title>
+  <meta
+    name="description"
+    content="Centro de accesos operativos para soporte, documentaci&#243;n y plataformas internas."
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="accesses">
+  <div class="noise-layer" aria-hidden="true"></div>
+
+  <section class="access-shell" id="accesses-login-gate">
+    <div class="access-panel">
+      <div class="access-panel__eyebrow">ACCESO REQUERIDO</div>
+      <h1>Centro de Accesos</h1>
+      <p>
+        Primero ingres&#225; al portal principal para habilitar la sesi&#243;n visual en este equipo.
+      </p>
+      <a class="btn btn-primary" href="index.html">Ir al portal principal</a>
+    </div>
+  </section>
+
+  <main class="downloads-shell is-hidden" id="accesses-shell">
+    <div class="downloads-layout">
+      <header class="downloads-header">
+        <div>
+          <a class="back-link" href="index.html">Volver al portal principal</a>
+          <h1>Centro de Accesos</h1>
+          <p>
+            Accesos r&#225;pidos a plataformas internas y herramientas operativas del equipo de soporte.
+          </p>
+        </div>
+      </header>
+
+      <section class="downloads-toolbar" aria-label="Filtros de accesos">
+        <div class="toolbar-top">
+          <label class="field">
+            <span>Buscador general</span>
+            <input
+              id="accesses-search"
+              type="search"
+              placeholder="Buscar por nombre, categor&#237;a o descripci&#243;n"
+              autocomplete="off"
+            />
+          </label>
+          <div>
+            <span class="results-count" id="accesses-results-count">0 accesos visibles</span>
+            <p class="toolbar-note">
+              Todos los accesos se abren en una nueva pesta&#241;a para mantener el flujo del portal.
+            </p>
+          </div>
+        </div>
+        <div class="chips-row" id="accesses-chips" aria-label="Categor&#237;as de accesos"></div>
+      </section>
+
+      <section class="downloads-grid" id="accesses-grid" aria-live="polite"></section>
+      <div class="empty-state" id="accesses-empty" hidden>
+        <strong>Sin resultados</strong>
+        <p>Prob&#225; con otro t&#233;rmino o cambi&#225; la categor&#237;a seleccionada.</p>
+      </div>
+    </div>
+  </main>
+
+  <div class="toast-region" id="toast-region" aria-live="polite" aria-atomic="true"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
