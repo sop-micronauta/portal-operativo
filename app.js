@@ -563,6 +563,8 @@ function escapeHtml(value) {
 }
 
 
+
+
 function initAccessesPage() {
   const loginGate = document.getElementById("accesses-login-gate");
   const accessesShell = document.getElementById("accesses-shell");

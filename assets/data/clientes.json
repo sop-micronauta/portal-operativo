@@ -1,0 +1,1333 @@
+﻿[
+{
+"id_cliente": 1,
+"nombre": "Siscadat",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 2,
+"nombre": "El Porvenir",
+"provincia": "Cordoba",
+"clasificacion": [
+"Interurbano"
+]
+},
+{
+"id_cliente": 3,
+"nombre": "Intercordoba",
+"provincia": "Cordoba",
+"clasificacion": [
+"Interurbano"
+]
+},
+{
+"id_cliente": 4,
+"nombre": "Sarmiento SRL",
+"provincia": "Cordoba",
+"clasificacion": [
+"Interurbano"
+]
+},
+{
+"id_cliente": 6,
+"nombre": "Lumasa",
+"provincia": "Cordoba",
+"clasificacion": [
+"Interurbano"
+]
+},
+{
+"id_cliente": 10,
+"nombre": "La Calera",
+"provincia": "Cordoba",
+"clasificacion": [
+"Interurbano"
+]
+},
+{
+"id_cliente": 16,
+"nombre": "Silvia",
+"provincia": "Corrientes",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 18,
+"nombre": "La Estrella",
+"provincia": "Chaco",
+"clasificacion": [
+"Interurbano"
+]
+},
+{
+"id_cliente": 23,
+"nombre": "DiCe Tours (G700)",
+"provincia": "Mendoza",
+"clasificacion": [
+"Interurbano"
+]
+},
+{
+"id_cliente": 24,
+"nombre": "Colonia SA",
+"provincia": "Neuquen",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 29,
+"nombre": "Brilla SRL",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 30,
+"nombre": "El Indio",
+"provincia": "Entre Rios",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 31,
+"nombre": "TAL",
+"provincia": "Santa Fe",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 32,
+"nombre": "Jacobsen SRL",
+"provincia": "Chubut",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 33,
+"nombre": "Fonobus - Emprendimientos SRL",
+"provincia": "Cordoba",
+"clasificacion": [
+"Interurbano"
+]
+},
+{
+"id_cliente": 36,
+"nombre": "SOPORTE NoUsar",
+"provincia": "",
+"clasificacion": [
+"Interurbano"
+]
+},
+{
+"id_cliente": 37,
+"nombre": "SIMA",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 38,
+"nombre": "Bus-KO",
+"provincia": [
+"Neuquen",
+"Rio Negro"
+],
+"clasificacion": [
+"Interurbano"
+]
+},
+{
+"id_cliente": 39,
+"nombre": "Rada Tilly",
+"provincia": "Chubut",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 42,
+"nombre": "La Union (G610-620)",
+"provincia": "Mendoza",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 43,
+"nombre": "Iselin",
+"provincia": "Mendoza",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 44,
+"nombre": "S M de los Andes",
+"provincia": "Neuquen",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 45,
+"nombre": "Pehuenche",
+"provincia": "Rio Negro",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 48,
+"nombre": "CATA - MITRE (G800-850)",
+"provincia": "Mendoza",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 52,
+"nombre": "Rio Uruguay (San Javier)",
+"provincia": "Misiones",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 53,
+"nombre": "Amancay",
+"provincia": "Neuquen",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 54,
+"nombre": "Aguila Viajes SRL",
+"provincia": "Misiones",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 55,
+"nombre": "Expreso del Plata SRL",
+"provincia": "Chaco",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 56,
+"nombre": "Morteros",
+"provincia": "Cordoba",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 60,
+"nombre": "Castelli",
+"provincia": "Neuquen",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 61,
+"nombre": "El Acuerdo SA",
+"provincia": "Buenos Aires",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 62,
+"nombre": "Sauchuk",
+"provincia": "Chaco",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 64,
+"nombre": "Cuna de la Bandera",
+"provincia": "Santa Fe",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 67,
+"nombre": "Buttini (G540-570)",
+"provincia": "Mendoza",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 68,
+"nombre": "Viajar",
+"provincia": "Chaco",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 70,
+"nombre": "Rincon",
+"provincia": "Neuquen",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 71,
+"nombre": "Las Grutas",
+"provincia": "Neuquen",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 73,
+"nombre": "CarCor",
+"provincia": "Cordoba",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 75,
+"nombre": "Cono Sur",
+"provincia": "Neuquen",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 77,
+"nombre": "Crespo",
+"provincia": "Entre Rios",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 79,
+"nombre": "Andesmar G400",
+"provincia": "Mendoza",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 80,
+"nombre": "Via Bariloche",
+"provincia": "Neuquen",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 81,
+"nombre": "PYSA - Aguila Dorada Bis",
+"provincia": "Misiones",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 82,
+"nombre": "Capital del Monte Urbano",
+"provincia": "Misiones",
+"clasificacion": ["Urbano"]
+},
+{
+"id_cliente": 83,
+"nombre": "Dean Funes",
+"provincia": "Cordoba",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 84,
+"nombre": "Campana Dos",
+"provincia": "Neuquen",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 86,
+"nombre": "Sarmiento Urbano",
+"provincia": "Cordoba",
+"clasificacion": ["Urbano"]
+},
+{
+"id_cliente": 88,
+"nombre": "San Cristobal (Sgo.)",
+"provincia": "Santiado del Estero",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 91,
+"nombre": "Ceferino",
+"provincia": "Chubut",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 92,
+"nombre": "SiBus Villa Allende",
+"provincia": "Cordoba",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 93,
+"nombre": "Ciudad de Galvez",
+"provincia": "Santa Fe",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 94,
+"nombre": "Henning",
+"provincia": "Misiones",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 95,
+"nombre": "TRANSBUS - La Estrella VM",
+"provincia": "Cordoba",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 96,
+"nombre": "El Petroleo",
+"provincia": "Neuquen",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 97,
+"nombre": "13 de Noviembre",
+"provincia": "Buenos Aires",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 98,
+"nombre": "SAT Rio Cuarto",
+"provincia": "Cordoba",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 99,
+"nombre": "Rapido Bus",
+"provincia": "Corrientes",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 101,
+"nombre": "Panaholma",
+"provincia": "Cordoba",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 102,
+"nombre": "Buses Lep",
+"provincia": "Cordoba",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 104,
+"nombre": "Alejandro - Zeta Bus",
+"provincia": "Cordoba",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 105,
+"nombre": "Las Acequias",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 106,
+"nombre": "CAR BUS",
+"provincia": "Cordoba",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 107,
+"nombre": "Achiras",
+"provincia": "Cordoba",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 108,
+"nombre": "Mar Chiquita",
+"provincia": "Cordoba",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 110,
+"nombre": "Coata",
+"provincia": "Cordoba",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 111,
+"nombre": "El Turista",
+"provincia": "Cordoba",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 115,
+"nombre": "Autotransporte 21",
+"provincia": "Entre Rios",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 117,
+"nombre": "Canello",
+"provincia": "Cordoba",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 120,
+"nombre": "El Milagro",
+"provincia": "Cordoba",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 121,
+"nombre": "Sol del Norte",
+"provincia": "Misiones",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 122,
+"nombre": "Aristobulo del Valle",
+"provincia": "Misiones",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 126,
+"nombre": "San Felipe",
+"provincia": "Santiado del Estero",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 128,
+"nombre": "Aponte",
+"provincia": "Salta",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 130,
+"nombre": "Jesus Maria",
+"provincia": "Cordoba",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 132,
+"nombre": "Turismo Martin",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 133,
+"nombre": "La Araucana",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 134,
+"nombre": "Dumas Cat",
+"provincia": "La Pampa",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 139,
+"nombre": "TUM - Montecarlo",
+"provincia": "Misiones",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 140,
+"nombre": "ETCE (Eldorado)",
+"provincia": "Misiones",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 141,
+"nombre": "Rio Uruguay",
+"provincia": "Misiones",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 142,
+"nombre": "Ex Munich",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 143,
+"nombre": "Rota",
+"provincia": "Misiones",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 144,
+"nombre": "Good Travel",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 145,
+"nombre": "Expreso Prox",
+"provincia": "Misiones",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 146,
+"nombre": "Tigre Iguazu",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 148,
+"nombre": "Dilkin",
+"provincia": "Misiones",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 149,
+"nombre": "La Linda",
+"provincia": "Cordoba",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 150,
+"nombre": "Tala",
+"provincia": "Misiones",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 151,
+"nombre": "Garay",
+"provincia": "Cordoba",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 153,
+"nombre": "Parana Medio",
+"provincia": "Santa Fe",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 154,
+"nombre": "Libertador",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 155,
+"nombre": "Ex Kenia",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 157,
+"nombre": "Rio Bus",
+"provincia": "Cordoba",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 159,
+"nombre": "Venado",
+"provincia": "Santa Fe",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 161,
+"nombre": "Ruta 13",
+"provincia": "Santa Fe",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 163,
+"nombre": "Martinez",
+"provincia": "Cordoba",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 164,
+"nombre": "Coata AVL",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 165,
+"nombre": "Municipalidad de Rafaela",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 167,
+"nombre": "Integración Santa Fe - Rosario",
+"provincia": "Santa Fe",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 168,
+"nombre": "Laiolo",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 169,
+"nombre": "CODTA",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 170,
+"nombre": "Palmares",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 172,
+"nombre": "Expreso del Norte Chaco",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 173,
+"nombre": "Sol Bus BsAs",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 174,
+"nombre": "Malvinas Argentinas",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 175,
+"nombre": "Rey del Monte",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 176,
+"nombre": "La Verde",
+"provincia": "Santa Fe",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 177,
+"nombre": "Fetap",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 178,
+"nombre": "Maria Tours",
+"provincia": "Santa Fe",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 179,
+"nombre": "MICRO",
+"provincia": "Santa Fe",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 180,
+"nombre": "Tpte Cordoba",
+"provincia": "Cordoba",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 182,
+"nombre": "Blanca Paloma",
+"provincia": "San luis",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 183,
+"nombre": "Elizabet Hennig",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 185,
+"nombre": "Nerben - Corvel",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 186,
+"nombre": "Cordoba Juega",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 187,
+"nombre": "EL NORTE bis",
+"provincia": "Santa Fe",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 188,
+"nombre": "Municipalidad de Bell Ville",
+"provincia": "Cordoba",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 190,
+"nombre": "zzz GlobalTracker",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 191,
+"nombre": "Grupo MR",
+"provincia": "San luis",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 192,
+"nombre": "Tpte Neuquen",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 193,
+"nombre": "Koslay",
+"provincia": "San luis",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 194,
+"nombre": "Polo",
+"provincia": "San luis",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 195,
+"nombre": "Desarrollo",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 196,
+"nombre": "Colonia Unificada",
+"provincia": "Neuquen",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 197,
+"nombre": "Bermejo Bus",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 198,
+"nombre": "Transur",
+"provincia": "La Pampa",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 204,
+"nombre": "GlobalVisum",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 211,
+"nombre": "Prueba SAT",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 213,
+"nombre": "Tpte Mendoza",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 214,
+"nombre": "Transporte Chaco",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 215,
+"nombre": "Tpte Misiones",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 216,
+"nombre": "Tpte Santa Fe",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 217,
+"nombre": "FOSAIN",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 219,
+"nombre": "Sube",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 222,
+"nombre": "Municipalidad de Córdoba",
+"provincia": "Cordoba",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 224,
+"nombre": "AUTOTRANSPORTE CERES",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 226,
+"nombre": "Marciano Tour",
+"provincia": "Santa Fe",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 227,
+"nombre": "Municipalidad de Oberá",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 230,
+"nombre": "Municipalidad de Zapala",
+"provincia": "Rio Negro",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 231,
+"nombre": "Urbano S.E.",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 232,
+"nombre": "Turismo Miramar",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 233,
+"nombre": "Angiocor",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 234,
+"nombre": "La Fea(desarrollo)",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 235,
+"nombre": "Grupo Sierras - Malvinas Argent",
+"provincia": "Cordoba",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 236,
+"nombre": "Tics",
+"provincia": "Santa Fe",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 237,
+"nombre": "Muni cba coniferal",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 238,
+"nombre": "Muni cba ersa",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 239,
+"nombre": "Singer",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 240,
+"nombre": "Godoy",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 241,
+"nombre": "Bici Cordoba",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 242,
+"nombre": "Veloz del Norte",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 243,
+"nombre": "Taxi Cordoba",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 244,
+"nombre": "Muni Alta gracia",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 245,
+"nombre": "TIN",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 246,
+"nombre": "zzz Sierras (conf)",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 247,
+"nombre": "Rapitaxi",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 249,
+"nombre": "San Jose",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 250,
+"nombre": "CARLOS PAZ- CUESTA BLANCA-TANTI",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 251,
+"nombre": "Fenix Open system",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 252,
+"nombre": "Chito",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 253,
+"nombre": "TaxiLibre",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 254,
+"nombre": "Prestaciones",
+"provincia": "Mendoza",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 255,
+"nombre": "Nueva Generacion",
+"provincia": "Mendoza",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 256,
+"nombre": "Presentacion",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 257,
+"nombre": "Tutaxituremis",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 258,
+"nombre": "UTN testing",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 259,
+"nombre": "UTN testing empadronamiento",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 260,
+"nombre": "Bot Wsp",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 261,
+"nombre": "Ente metropolitano CBA",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 262,
+"nombre": "Lambertour - Urbano Embalse",
+"provincia": "Cordoba",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 263,
+"nombre": "6 Elementos",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 264,
+"nombre": "TIN Boleteria",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 265,
+"nombre": "Tu Libreta Digital Cba",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 266,
+"nombre": "Entaxi Global",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 267,
+"nombre": "Tpte San Luis",
+"provincia": "San luis",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 268,
+"nombre": "Tutaxituremis",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 269,
+"nombre": "Gps Taxis",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 270,
+"nombre": "TIN Cliente",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 271,
+"nombre": "Tecnobus",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 272,
+"nombre": "Beletti Ingenieria",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 273,
+"nombre": "Gps Traccar",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 274,
+"nombre": "Abogados Global",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 275,
+"nombre": "Municipalidad La Granja",
+"provincia": "Cordoba",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 276,
+"nombre": "Municipalidad San Francisco",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 277,
+"nombre": "San Antonio - Oran",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 278,
+"nombre": "Gauchito Gil",
+"provincia": "",
+"clasificacion": [
+"Urbano"
+]
+},
+{
+"id_cliente": 279,
+"nombre": "Grupo FAM Interurbano",
+"provincia": "Cordoba",
+"clasificacion": [
+"Interurbano"
+]
+},
+{
+"id_cliente": 280,
+"nombre": "Barloa",
+"provincia": "San luis",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 281,
+"nombre": "Bizland",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 282,
+"nombre": "Bambi",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 283,
+"nombre": "El Santiagueno",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 284,
+"nombre": "Beg urbano",
+"provincia": "Cordoba",
+"clasificacion": [
+"Urbano"
+]
+},
+{
+"id_cliente": 285,
+"nombre": "SP Transporte",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 286,
+"nombre": "Almas Group",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 287,
+"nombre": "Bancor",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 288,
+"nombre": "Malvinas Sierras",
+"provincia": "Cordoba",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 289,
+"nombre": "Urkupina",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 290,
+"nombre": "San Clemente Comuna",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 400,
+"nombre": "Perfil",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 401,
+"nombre": "Expreso de la selva",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 402,
+"nombre": "ITATI",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 404,
+"nombre": "La Termal",
+"provincia": "Chaco",
+"clasificacion": [
+"Interurbano"
+]
+},
+{
+"id_cliente": 405,
+"nombre": "CUENCA SUR S.A.S.",
+"provincia": "Santa Cruz",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 406,
+"nombre": "Aguila Capital",
+"provincia": "Buenos Aires",
+"clasificacion": [
+"Interurbano"
+]
+},
+{
+"id_cliente": 407,
+"nombre": "Kenia",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 408,
+"nombre": "Tamsau",
+"provincia": "Cordoba",
+"clasificacion": [
+"Urbano"
+]
+},
+{
+"id_cliente": 410,
+"nombre": "VILLA - UTE",
+"provincia": "Cordoba",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 411,
+"nombre": "Coniferal",
+"provincia": "Cordoba",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 413,
+"nombre": "Pehuenche Neuquen",
+"provincia": "Neuquen",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 414,
+"nombre": "Turitour SA",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 419,
+"nombre": "La Bonita (Desarrollo)",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+},
+{
+"id_cliente": 420,
+"nombre": "Grupo FAM Urbano",
+"provincia": "Cordoba",
+"clasificacion": [
+"Urbano"
+]
+},
+{
+"id_cliente": 421,
+"nombre": "SiBus CBA (Rissma)",
+"provincia": "Cordoba",
+"clasificacion": [
+"Urbano"
+]
+},
+{
+"id_cliente": 422,
+"nombre": "Sol Bus Cba",
+"provincia": "Cordoba",
+"clasificacion": [
+"Urbano"
+]
+},
+{
+"id_cliente": 480,
+"nombre": "Siscadat (Desarrollo)",
+"provincia": "",
+"clasificacion": ["Interurbano"]
+}
+]
